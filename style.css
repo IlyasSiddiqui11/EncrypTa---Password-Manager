@@ -212,7 +212,11 @@ input[type="password"]:focus {
 }
 
 #add-pass{
-    margin-left: 40%;
+    display: block;
+    width: 100%;
+    max-width: 700px; /* match form/table width if desired */
+    margin: 20px auto; /* centers horizontally on all screen sizes */
+    text-align: center;
     font-weight: 600;
     color: #bfcfff;
     letter-spacing: 0.2px;
@@ -230,13 +234,17 @@ input[type="password"]:focus {
         border-radius: 8px;
     }
 
-    #add-pass{
-    margin-left: 40%;
+#add-pass{
+    display: block;
+    width: 100%;
+    max-width: 700px; /* match form/table width if desired */
+    margin: 20px auto; /* centers horizontally on all screen sizes */
+    text-align: center;
     font-weight: 600;
     color: #bfcfff;
     letter-spacing: 0.2px;
     font-size: 0.9rem;
-    }
+}
 
     .vault-table th,
     .vault-table td {
@@ -407,11 +415,15 @@ input[type="password"]:focus {
         padding: 0.9rem;
     }
 
-    #add-pass{
-    margin-left: 40%;
+#add-pass{
+    display: block;
+    width: 100%;
+    max-width: 700px; 
+    margin: 20px auto; 
+    text-align: center;
     font-weight: 600;
     color: #bfcfff;
     letter-spacing: 0.2px;
     font-size: 0.9rem;
-    }
+}
 }
