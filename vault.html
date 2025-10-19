@@ -7,6 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav class="nav-bar">
+        <h1 class="logo">Encryp<span>Ta</span></h1>
+    </nav>
+    <table class="vault-table">
+    <tr>
+        <th>Website</th>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Actions</th>
+    </tr>
+    </table>
+    <form>
+        <span id="add-pass">Add a Password</span>
+        <label for="fname">Website:</label>
+        <br>
+        <input type="text" id="website" value="">
+        <label for="website">Username:</label>
+        <br>
+        <input type="text" id="username" value="">
+        <br>
+        <label for="lname">Password:</label><br>
+        <input type="password" id="password" value="">
+        <br>
+        <br>
+        <button id ="submit-btn">Submit</button>
+    </form> 
+    <div class="footer">
+        <p>EncrypTa — Your Security, Simplified.</p>
+    </div>
+    <script src="vault.js"></script>
 </body>
 </html>
